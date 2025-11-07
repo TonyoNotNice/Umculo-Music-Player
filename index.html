@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Umculo | Music Player</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="dark-theme">
+
+  <!-- Theme Toggle -->
+  <button id="themeToggle" class="theme-toggle">
+    <i class="bi bi-sun-fill"></i>
+  </button>
+
+  <header>
+    <!--Left Playlist Sidebar -->
+    <div class="menu_side">
+      <h1>Umculo</h1>
+      <div class="playlist">
+        <h4 class="active"><i class="bi bi-music-note-beamed"></i> All Songs</h4>
+        <h4><i class="bi bi-headphones"></i> Last Listening</h4>
+        <h4><i class="bi bi-stars"></i> Recommended</h4>
+        <h4><i class="bi bi-heart"></i> Favorites</h4>
+      </div>
+
+      <ul class="menu_song">
+        <li class="songitem active">
+          <span>01</span>
+          <img src="img/common_song/Oscar-Mbo2.webp" alt="Grateful" data-audio="audio/oscar-mbo-grateful-feat-sgvo-seko">
+          <div class="song_info">
+            <h5>Oscar Mbo</h5>
+            <div class="subtitle">Grateful</div>
+          </div>
+          <i class="bi bi-play-circle-fill"></i>
+        </li>
+
+        <li class="songitem">
+          <span>02</span>
+          <img src="img/common_song/unnamed.jpg"  alt="Bazamile" data-audio="audio/bazamile">
+          <div class="song_info">
+            <h5>Soul Keys</h5>
+            <div class="subtitle">Bazamile</div>
+          </div>
+          <i class="bi bi-play-circle-fill"></i>
+        </li>
+        <li class="songitem">
+          <span>03</span>
+          <img src="img/common_song/kid_fonque.jpg" alt="Undefined" data-audio="audio/mdu-aka-trp-bd3-in2jazz">
+          <div class="song_info">
+            <h5>Kid Fonque</h5>
+            <div class="subtitle">Undefined</div>
+          </div>
+          <i class="bi bi-play-circle-fill"></i>
+        </li>
+        <li class="songitem">
+          <span>04</span>
+          <img src="img/common_song/Mr_Shane_SA.webp" data-audio="audio/show-my-love" alt="show my love">
+          <div class="song_info">
+            <h5>Mr Shane SA</h5>
+            <div class="subtitle">Show my love</div>
+          </div>
+          <i class="bi bi-play-circle-fill"></i>
+        </li>
+
+        <li class="songitem">
+          <span>05</span>
+          <img src="img/common_song/Desiree.jpg" alt="Sunzet" data-audio="audio/mdu-aka-trp-bd3-in2jazz">
+          <div class="song_info">
+            <h5>Desiree</h5>
+            <div class="subtitle">Sunzet</div>
+          </div>
+          <i class="bi bi-play-circle-fill"></i>
+        </li>
+      </ul>
+    </div><!-- Middle Song Section -->
+<div class="song_side">
+
+<section class="music_section">
+  <h2>Neo Soul</h2>
+  <div class="slider_wrapper">
+    <button class="slide_btn prev">&#10094;</button>
+
+    <div class="carousel" id="movieCarousel">
+      <div class="music_card">
+        <img src="img/movie's_album/Umzulu_phaqa.jpg" alt="Umzulu_phaqa">
+        <h4>Umzulu Phaqa</h4>
+        <p>2023 • Umfaz' Wasedolobheni </p>
+      </div>
+      <div class="music_card">
+        <img src="img/movie's_album/UMABUKISA.jpg" alt="Umabukisa">
+        <h4>Lia Butler</h4>
+        <p>2025 • UMABUKISA</p>
+      </div>
+      <div class="music_card">
+        <img src="img/movie's_album/Filala.jpg" alt="Filah lah lah">
+        <h4>Filah Lah Lah</h4>
+        <p>2008 • Drama</p>
+      </div>
+      <div class="music_card">
+        <img src="img/movie's_album/Usebenzile.jpg" alt="Dusse Wavy">
+        <h4>Dusse Wavy</h4>
+        <p>2024 • Usebenzile</p>
+      </div>
+      <div class="music_card">
+        <img src="img/movie's_album/Better Days Are Coming.jpg" alt="Frank Apollo">
+        <h4>Frank Apollo</h4>
+        <p>2025 • Better Days Are Coming</p>
+      </div>
+      <div class="music_card">
+        <img src="img/movie's_album/And The Grammy Goes To.jpg" alt="Misfit">
+        <h4>Misfit</h4>
+        <p>2025 • And The Grammy Goes</p>
+      </div>
+      <div class="music_card">
+        <img src="img/movie's_album/Sing it back.jpg" alt="Sio">
+        <h4>Sio</h4>
+        <p>2016 • Sing It Back</p>
+      </div>
+        <div class="music_card">
+        <img src="img/movie's_album/Nomvula.jpg" alt="C-Black">
+        <h4>C-Black</h4>
+        <p>2022 • Nomvula</p>
+      </div>
+    </div>
+
+    <button class="slide_btn next">&#10095;</button>
+  </div>
+</section>
+<!-- 🎤 Artists Section -->
+<section class="music_section">
+  <h2>Artists</h2>
+  <div class="artist_slider_wrapper">
+    <div class="artist_slider track">
+      <div class="artist_card_item">
+        <img src="img/artists/Loatinover Pounds.jpg" alt="Loatinover Pounds">
+        <h4>Loatinover Pounds</h4>
+      </div>
+      <div class="artist_card_item">
+        <img src="img/artists/2shoes.jpg" alt="2shoes">
+        <h4>Mateki2shoes</h4>
+      </div>
+      <div class="artist_card_item">
+        <img src="img/artists/Fatso.jpg" alt="Fatso">
+        <h4>Fatso</h4>
+      </div>
+      <div class="artist_card_item">
+        <img src="img/artists/Eazy Nkabi.jpg" alt="Eazy Nkabi">
+        <h4>Eezy Nkabi</h4>
+      </div>
+      <div class="artist_card_item">
+        <img src="img/artists/mpumi.jpg" alt="Mpumi">
+        <h4>Mpumi</h4>
+      </div>
+      <div class="artist_card_item">
+        <img src="img/artists/sishi.jpg" alt="Sishi">
+        <h4>Sishii</h4>
+      </div>
+      <div class="artist_card_item">
+        <img src="img/artists/sonwabile.jpg" alt="Sonwabile">
+        <h4>Sonwabile</h4>
+      </div>
+      <div class="artist_card_item">
+        <img src="img/artists/desiree.jpg" alt="desiree">
+        <h4>Desiree</h4>
+      </div>
+      <div class="artist_card_item">
+        <img src="img/artists/msaki.webp" alt="Msaki">
+        <h4>Msaki</h4>
+      </div>
+      <!-- Duplicate for seamless scroll -->
+      <div class="artist_card_item">
+        <img src="img/artists/unathi.jpg" alt="unathi">
+        <h4>Unathi</h4>
+      </div>
+      <div class="artist_card_item">
+        <img src="img/artists/mokoebalive.jpg" alt="mokoebalive">
+        <h4>Mokoenalive</h4>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- 🎶 Popular Songs Section -->
+<section class="popular_songs_section">
+  <h2 class="section_heading">Popular Songs</h2>
+
+  <div class="songs_grid_container">
+    <div class="song_item">
+      <img src="img/common_song/Umhlaba ka god.jpg" alt="Maglera Doe Boy">
+      <h4>Umhlaba Ka God</h4>
+      <p>Maglera Doe Boy</p>
+    </div>
+
+    <div class="song_item">
+      <img src="img/common_song/Kidfonquee-Staytrue.jpg" alt="Kidfonquee-Staytrue">
+      <h4>Stay True</h4>
+      <p>Kid Fonque</p>
+    </div>
+
+    <div class="song_item">
+      <img src="img/common_song/sio-sigma.jpg" alt="sio-sigma">
+      <h4>Sigma</h4>
+      <p>Sio, Tesfla Williams</p>
+    </div>
+
+    <div class="song_item">
+      <img src="img/common_song/Fatso-Underated.jpg" alt="Fatso-Underated">
+      <h4>Underated</h4>
+      <p>Fatso</p>
+    </div>
+
+    <div class="song_item">
+      <img src="img/common_song/DeepEssentials.webp" alt="DeepEssentials">
+      <h4>Undisputed</h4>
+      <p>Deep Essential, Mr Shane SA</p>
+    </div>
+    <div class="song_item">
+      <img src="img/common_song/get.webp" alt="get">
+      <h4>Pelo Nama Le Moea</h4>
+      <p>Yoda Mfana</p>
+    </div>
+
+    <div class="song_item">
+      <img src="img/common_song/Love Theory!.jpg" alt="Lovetheory">
+      <h4>Love Theory</h4>
+      <p>Judy Jay, Oscar Mbo</p>
+    </div>
+
+    <div class="song_item">
+      <img src="img/common_song/amakwaal.jpg" alt="amakwaal">
+      <h4>Amakwaal</h4>
+      <p>The Bless, Nvcho & Stixx</p>
+    </div>
+
+      <div class="song_item">
+      <img src="img/common_song/Its just the crazy.webp" alt="Its">
+      <h4>Its just the crazy</h4>
+      <p>Lebtoniq, Oscar Mbo</p>
+    </div>   
+    <br><br><br>
+  </div>
+</section>
+
+</div>
+
+
+
+   <div class="master_play">
+  <!-- Left: Song info -->
+  <div class="song_info_container">
+    <img src="img/common_song/Oscar-Mbo2.webp" alt="Current Song" class="bottom_album_art">
+    <div class="song_info_text">
+      <h5>Grateful</h5>
+      <p>Oscar Mbo </p>
+    </div>
+  </div>
+
+  <!-- Center: Controls -->
+  <div class="controls_container">
+    <div class="controls">
+      <i class="bi bi-skip-start-fill"></i>
+      <i class="bi bi-play-circle-fill"></i>
+      <i class="bi bi-skip-end-fill"></i>
+    </div>
+  </div>
+<!-- Right: Progress with icons -->
+<div class="progress_container">
+  <i class="bi bi-soundwave"></i> <!-- Optional: could be a "track" icon -->
+  <input type="range" value="0" min="0" max="100">
+  <i class="bi bi-clock"></i> <!-- Optional: time indicator or track end -->
+</div>
+
+</div>
+
+  </header>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
